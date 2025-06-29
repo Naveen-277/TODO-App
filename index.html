@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PlanTracker — Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Landing/Login Page -->
+  <div id="loginPage" class="card centered">
+    <h1>📝 PlanTracker</h1>
+    <p>Organize, track, and complete your tasks seamlessly with our simple, powerful task manager.</p>
+    <img src="data:image/png;base64,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" alt="Tasks Illustration" class="hero-img">
+
+    <button class="google-btn" onclick="fakeGoogleLogin()">Continue with Google</button>
+    <button class="github-btn" onclick="fakeGitHubLogin()">Continue with GitHub</button>
+
+    <p class="or-text">or</p>
+
+    <input type="text" id="username" placeholder="Enter your name">
+    <button onclick="login()">Start PlanTracking</button>
+  </div>
+
+  <!-- Task Manager App Page -->
+  <div id="appPage" style="display:none;" class="card centered">
+    <header>
+      <h2>📋 PlanTracker Dashboard</h2>
+      <p>Welcome, <span id="userName"></span>!</p>
+      <button class="logout-btn" onclick="logout()">Logout</button>
+    </header>
+
+    <p class="desc">Keep track of your personal and shared tasks. Mark them complete, delete, or filter as you progress!</p>
+
+    <div class="add-task">
+      <input type="text" id="taskInput" placeholder="Add a new task">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="filters">
+      <button onclick="filterTasks('all')">All</button>
+      <button onclick="filterTasks('completed')">Completed</button>
+      <button onclick="filterTasks('pending')">Pending</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
